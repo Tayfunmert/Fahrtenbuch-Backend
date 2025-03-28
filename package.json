@@ -1,0 +1,33 @@
+{
+  "name": "fahrtenbuch-backend",
+  "version": "1.0.0",
+  "description": "Ein digitales Fahrtenbuch zur Dokumentation von Fahrten für Logistikunternehmen. Dieses System ersetzt das analoge Fahrtenbuch und ermöglicht es Fahrern, ihre Fahrten einfach und effizient digital zu erfassen. Administratoren können Fahrten verwalten, Statistiken einsehen und Berichte generieren.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tayfunmert/Fahrtenbuch-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tayfunmert/Fahrtenbuch-Backend/issues"
+  },
+  "homepage": "https://github.com/Tayfunmert/Fahrtenbuch-Backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
